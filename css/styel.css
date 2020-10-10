@@ -1,0 +1,365 @@
+/* 
+===== Index WebPang =====
+
+    1- Effects
+    2- General Css
+    3- Sections web
+       3.0- header section
+       3.1- Home Section 
+       3.2- Get-Start Section 
+       3.3- Service Section
+       3.4- Protfolio Section
+       3.5- Download Section
+       3.6- Contact Section
+*/
+
+/* 1- Effects */
+
+/*
+    - Section Header
+    - Section Padding 
+*/
+.section-header{
+    text-align: center;
+}
+.section-header .title-header{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.section-header .line-header {
+    display: block;
+    height: 3px;
+    width: 80px; 
+    margin: 20px auto;
+    background-color: #f4623a;
+    
+}
+/* //////////////////////////////// */
+/* 1- Effects */
+.pd-y{
+    padding: 125px 0;
+}
+.btn{
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #f4623a;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color .4s;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px ;
+}
+
+/* //////////////////////////////// */
+/* 2- General Css */
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;  /* css3 */
+}
+body{
+    font-family: Merriweather Sans, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* //////////////////////////////// */
+/* 3.0- header section */
+.header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+}
+.header-content{
+    overflow: hidden;
+}
+.header-content .logo a{
+    color: rgb(206 201 198);
+    float: left;
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.header-content .nav{
+    float: right;
+    margin-top: 23px;
+    margin-right: 50px;
+}
+.header-content .nav li{
+    display: inline-block;
+    margin: 10px;
+}
+.header-content .nav li .header-link{
+    color: rgb(206 201 198);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.nav li .header-link:hover ,
+.header-content .logo a:hover{
+    color: #fff;
+}
+/* //////////////////////////////// */
+/* 3.1- Home Section */
+.home{
+    background-image: url(../img/Home/bg-masthead.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.home .overlay{
+    background-color: rgba(92, 77, 66, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.home-content{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 40px;
+}
+.home-content .home-title{
+    width: 800px;
+    margin: auto;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 45px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.home-content .line{
+    width: 70px;
+    height: 5px;
+    background-color: #f4623a;
+    display: block;   
+    margin: auto;
+}
+.home-content .home-parag{
+    width: 650px;
+    color: #fff;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Merriweather;
+    padding: 20px 0;
+}
+.home-content .btn{
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #f4623a;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color .4s;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px ;
+}
+.home-content .btn:hover{
+    background-color:#F24516;
+}
+/* //////////////////////////////// */
+/* 3.2- Get-Start Section */
+.Get-Start{
+    background-color: #f4623a;
+    position: relative;
+    height: 200px;
+    padding: 230px;
+}
+.Get-Start-content{
+    position: absolute;
+    width: 820px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 50px 0;
+}
+.Get-Start-title{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.Get-Start-line {
+    display: block;
+    height: 5px;
+    width: 80px; 
+    margin: 20px auto;
+    background-color: #fff;
+}
+.Get-Start-parag{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Merriweather;
+}
+.Get-Start-content .btn{
+    background-color:#fff ;
+    color: #333;
+}
+/* //////////////////////////////// */
+/* 3.3- Service Section */
+.Service-content{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.Service-content .Service-item{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.Service-item i{
+    font-size: 80px;
+    color: #f4623a;
+}
+.Service-title{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.Service-parag{
+    width: 200px;
+    font-size: 20px;
+    color: #6c757d ;
+    font-family: Merriweather;
+    margin: auto;
+}
+/* //////////////////////////////// */
+/* 3.4- Protfolio Section */
+.Protfolio-contant{
+    overflow: hidden;
+}
+.Protfolio-item{
+    width: 33.3%;
+    float: left;
+    position: relative;
+}
+.Protfolio-item .pic{
+    width: 100%;
+    float: left;
+}
+.layer-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(244, 98, 58, 0.9);
+    margin: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s , visibility .4s ;
+}
+.layer-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.layer-content .catagory{
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-family: Merriweather;
+}
+.Protfolio-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.Protfolio-item:hover .layer-content {
+    visibility: visible;
+    opacity: 1;
+}
+/* //////////////////////////////// */
+/* 3.5- Download Section */
+.Download-Section{
+    width: 100%;
+    height: 250px;
+    background-color: #343a40;
+    position: relative;
+}
+.download-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.Download-title{
+    color: #fff;
+    font-size: 30px;
+}
+.download-content .btn{
+    background-color: #fff;
+    color: #333;
+}
+/* //////////////////////////////// */
+/* 3.6- Contact Section */
+.Contact{
+    background-color: #fff;
+}
+.Contact-content{
+    text-align: center;
+}
+.Contact-parag{
+    width: 600px;
+    font-family: Merriweather;
+    color: #6c757d;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.Contact-item{
+    overflow: hidden; 
+}
+.contact-info{
+    width: 40%;
+    float: left;
+}
+.contact-info-items{
+    width: 600px;
+    
+}
+.contact-info-items i{
+    font-size: 60px;
+    display: block;
+    color: #6c757d;
+    margin-top: 20px;
+}
+.Contact-nomber {
+    font-family: Merriweather;
+    display: block;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.Contact-nomber.email{
+    color: #f4623a;
+}
